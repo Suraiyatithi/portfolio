@@ -5,7 +5,7 @@ const DownloadResumeButton = () => {
   const handleDownload = () => {
     // If your resume is in public folder
     const link = document.createElement("a");
-    link.href = "../../../public/Resume_of_Suraiya.pdf"; // <-- Change this to your file path
+    link.href = "../../../public/Resume_of_MstSuraiya.pdf"; // <-- Change this to your file path
     link.download = "Suraiya_Tithi_Resume.pdf"; // Name of the downloaded file
     link.click();
   };
